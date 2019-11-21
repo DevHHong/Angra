@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DBConnector">
+      <UniqueIdentifier>{34b52239-030c-4cff-b7cb-2a33645ac283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SingleTon">
+      <UniqueIdentifier>{375f566b-68c2-457f-af81-d5e03e195a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IOCP">
+      <UniqueIdentifier>{68378c31-5590-4cb5-8801-6a627d67059f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clock">
+      <UniqueIdentifier>{f6720660-7d99-4123-b000-2c9c8de3b53f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NPC">
+      <UniqueIdentifier>{a34b9a7d-df64-44fe-9416-9c8ca9c147f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>SingleTon</Filter>
+    </ClInclude>
+    <ClInclude Include="DBconnector.h">
+      <Filter>DBConnector</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>Clock</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Iocp.h">
+      <Filter>IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Graduation_Work.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DBconnector.cpp">
+      <Filter>DBConnector</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>Clock</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Iocp.cpp">
+      <Filter>IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>NPC</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
